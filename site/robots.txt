@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://harmart1.github.io/impressyourself/sitemap.xml
