@@ -1,0 +1,4 @@
+impressyourself GitHub Pages health check
+Repository: Harmart1/impressyourself
+Expected public base URL: https://harmart1.github.io/impressyourself/
+If this file loads at /impressyourself/pages-healthcheck.txt, GitHub Pages is publishing the repository successfully.

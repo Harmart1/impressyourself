@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content"/>
+  <meta name="robots" content="noindex">
+  <title>Page not found | impressyourself</title>
+  <link rel="icon" href="https://harmart1.github.io/impressyourself/impressyourself-butterfly-logo.svg" type="image/svg+xml">
+  <style>
+    :root{--raspberry:#b21f4a;--ink:#28302d;--paper:#fffdfa;--muted:#6d6b64;--sage:#a8b2a0}
+    *{box-sizing:border-box}html,body{max-width:100%;overflow-x:hidden}body{margin:0;min-height:100svh;display:grid;place-items:center;background:radial-gradient(circle at 15% 20%,#f4e1e7,transparent 34%),radial-gradient(circle at 85% 70%,#e9ede6,transparent 34%),#fbf7f2;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink)}
+    main{width:min(92vw,720px);padding:clamp(28px,6vw,64px);background:#fff;border:1px solid #eadfe2;border-radius:28px;box-shadow:0 24px 70px rgba(61,37,45,.10);text-align:center}
+    img{width:68px;height:68px}.eyebrow{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--raspberry);font-weight:800}h1{font-family:Georgia,serif;font-size:clamp(2.4rem,8vw,5rem);line-height:.95;margin:.35em 0}.copy{font-size:1.08rem;line-height:1.7;color:var(--muted);max-width:540px;margin:0 auto 26px}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 20px;border-radius:999px;text-decoration:none;font-weight:800}a:first-child{background:var(--raspberry);color:#fff}a:last-child{border:1px solid #d9cdd1;color:var(--ink)}
+  </style>
+  <link rel="manifest" href="https://harmart1.github.io/impressyourself/site.webmanifest">
+  <link rel="apple-touch-icon" href="https://harmart1.github.io/impressyourself/apple-touch-icon.png">
+<script id="adaptive-device-detector">
+(()=>{
+  const root=document.documentElement;
+  root.classList.add('js');
+  const mq={
+    coarse:matchMedia('(pointer: coarse)'),
+    anyFine:matchMedia('(any-pointer: fine)'),
+    anyHover:matchMedia('(any-hover: hover)'),
+    reduced:matchMedia('(prefers-reduced-motion: reduce)'),
+    contrast:matchMedia('(prefers-contrast: more)')
+  };
+  const update=()=>{
+    const vv=window.visualViewport;
+    const w=Math.round(vv?.width || document.documentElement.clientWidth || innerWidth || 0);
+    const h=Math.round(vv?.height || innerHeight || 0);
+    const sw=Math.round(screen?.width || w), sh=Math.round(screen?.height || h);
+    const shortSide=Math.min(sw,sh,w,h);
+    const touch=(navigator.maxTouchPoints||0)>0 || mq.coarse.matches;
+    const fine=mq.anyFine.matches;
+    const touchFirst=mq.coarse.matches && !fine;
+    let device='desktop';
+    if(touch && shortSide < 600) device='phone';
+    else if((touchFirst && shortSide < 1000) || (!fine && w < 1180)) device='tablet';
+    else if(!touch && w < 720) device='desktop';
+    root.dataset.device=device;
+    root.dataset.layout=w < 720 ? 'compact' : (w < 1180 ? 'medium' : 'wide');
+    root.dataset.input=touch ? (fine ? 'hybrid' : 'touch') : 'pointer';
+    root.dataset.orientation=w>h ? 'landscape' : 'portrait';
+    root.dataset.hover=mq.anyHover.matches ? 'hover' : 'none';
+    root.dataset.motion=mq.reduced.matches ? 'reduced' : 'full';
+    root.dataset.contrast=mq.contrast.matches ? 'more' : 'normal';
+    root.style.setProperty('--viewport-width',`${w}px`);
+    root.style.setProperty('--viewport-height',`${h}px`);
+    root.style.setProperty('--safe-top','env(safe-area-inset-top, 0px)');
+    root.style.setProperty('--safe-right','env(safe-area-inset-right, 0px)');
+    root.style.setProperty('--safe-bottom','env(safe-area-inset-bottom, 0px)');
+    root.style.setProperty('--safe-left','env(safe-area-inset-left, 0px)');
+  };
+  let raf=0;
+  const queue=()=>{cancelAnimationFrame(raf);raf=requestAnimationFrame(update)};
+  update();
+  addEventListener('resize',queue,{passive:true});
+  addEventListener('orientationchange',queue,{passive:true});
+  visualViewport?.addEventListener('resize',queue,{passive:true});
+  visualViewport?.addEventListener('scroll',queue,{passive:true});
+  Object.values(mq).forEach(m=>m.addEventListener?.('change',queue));
+})();
+</script>
+</head>
+<body><main><img src="data:image/svg+xml;utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20120%20120%22%20role=%22img%22%20aria-labelledby=%22title%20desc%22%3E%0A%20%20%3Ctitle%20id=%22title%22%3Eimpressyourself%20butterfly%20mark%3C/title%3E%0A%20%20%3Cdesc%20id=%22desc%22%3EA%20symmetrical%20butterfly%20symbol%20representing%20organized%20spaces,%20smarter%20systems%20and%20transformation.%3C/desc%3E%0A%20%20%3Cg%20fill=%22none%22%20stroke=%22%23B21F4A%22%20stroke-width=%226%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%0A%20%20%20%20%3Cpath%20d=%22M56%2056C45%2031%2024%2020%2017%2028c-8%209%203%2031%2033%2035-21%201-31%2014-23%2024%208%2010%2025-1%2031-20%22/%3E%0A%20%20%20%20%3Cpath%20d=%22M64%2056c11-25%2032-36%2039-28%208%209-3%2031-33%2035%2021%201%2031%2014%2023%2024-8%2010-25-1-31-20%22/%3E%0A%20%20%20%20%3Cpath%20d=%22M60%2050v40%22/%3E%0A%20%20%20%20%3Cpath%20d=%22M57%2049C52%2035%2045%2027%2037%2022%22/%3E%0A%20%20%20%20%3Cpath%20d=%22M63%2049c5-14%2012-22%2020-27%22/%3E%0A%20%20%3C/g%3E%0A%20%20%3Ccircle%20cx=%2260%22%20cy=%2243%22%20r=%225%22%20fill=%22%23D9909F%22/%3E%0A%20%20%3Cpath%20d=%22M60%2055c-5%2012-5%2025%200%2036%205-11%205-24%200-36Z%22%20fill=%22%23D9909F%22%20opacity=%22.9%22/%3E%0A%3C/svg%3E" alt=""><p class="eyebrow">SPACES + SYSTEMS · IMPRESSYOURSELF</p><h1>That page found a new place.</h1><p class="copy">The page you were looking for is not here, but the next useful step probably is.</p><div class="actions"><a href="https://harmart1.github.io/impressyourself/">Return home</a><a href="https://harmart1.github.io/impressyourself/#booking">View availability</a></div></main><a class="mobile-booking-dock" href="index.html#booking" aria-label="Book Kelly">Book Kelly</a></body></html>
